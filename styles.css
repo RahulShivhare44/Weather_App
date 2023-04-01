@@ -259,3 +259,9 @@ h1 {
       width: 100%;
     }
   }
+
+@media (max-width: 1100px) {
+    .wrapper{
+        height: 110vh;
+    }
+}  
