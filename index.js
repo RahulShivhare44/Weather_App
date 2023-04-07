@@ -150,6 +150,10 @@ grantAccessButton.addEventListener("click", getLocation);
 const searchInput = document.querySelector("[data-searchInput]");
 
 searchForm.addEventListener("submit", (e) => {
+
+    //by chance pehle se add ho to isliye hatana padega
+    notFound.classList.remove('active');
+
     e.preventDefault();
     let cityName = searchInput.value;
 
