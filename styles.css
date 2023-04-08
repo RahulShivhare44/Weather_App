@@ -263,5 +263,6 @@ h1 {
 @media (max-width: 1100px) {
     .wrapper{
         height: 125vh;
+        padding-bottom: 30px;
     }
 }  
